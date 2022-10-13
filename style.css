@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.starter{
+    background-color: #212529;
+   padding: 20px;
+   text-align:right;
+   
+}
+
+.starter a{
+    color:  rgba(255, 255, 255, 0.55);
+    padding-right: 15px;
+}
+
+.first_page{
+    padding-top: 6rem; ;
+    background-color: #1F79FD;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.first_page h1{
+    color: #fff;
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.first_page p{
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 2.3rem;   
+}
+
+.first_page a{
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;  
+}
+
+#about{
+    width: 75%;
+    padding-left: 600px;
+    box-sizing: border-box;
+    padding-top: 6rem;
+    padding-bottom: 100px;
+}
+
+#about h2{
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#about p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+#about ul{
+    padding-left: 1.4rem;
+}
+
+#services{
+    width: 75%;
+    padding-left: 600px;
+    box-sizing: border-box;
+    padding-top: 6rem;
+    padding-bottom: 100px;
+}
+
+#services h2{
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+#services p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+#contact{
+    width: 75%;
+    padding-left: 600px;
+    box-sizing: border-box;
+    padding-top: 6rem;
+    padding-bottom: 100px;
+}
+
+#contact h2{
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#contact p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+} 
+
+.footer{
+    background-color: #212529;
+   padding: 20px;
+   text-align:center;
+}
+
+
+.footer p{
+color: #fff;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+
+
