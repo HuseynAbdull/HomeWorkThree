@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home_page{
+    background-color: #96D1E3;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.contact{
+   
+    text-decoration:none;
+    ;padding: 3rem 1rem;
+    font-size: 2rem;
+    background-color:#fff;
+    border-radius: 30px;
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: 5px 7px 7px 10px #658354;
+}
+
+.contact h2{
+    margin-bottom: 30px;
+    color: black;
+    
+}
+
+.contact img{
+    clip-path: circle(50% at 50% 50%);
+    width: 45%;
+    
+}
+
+.contact p {
+    margin-bottom: 30px;
+    color: black;
+}
+
+.contact button{
+    margin-bottom: 30px;
+    text-decoration:none;
+    padding: 0.5rem 3.5rem;
+    font-size: 1.40rem;
+    color: #fff;
+    background-color: black;
+    border-color: black; 
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+
+
+
