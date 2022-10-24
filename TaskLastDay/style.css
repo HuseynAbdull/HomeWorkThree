@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header{
+    position: fixed;
+    width: 100%;
+    overflow: auto;
+    padding: 20px 4rem;
+}
+
+.logo a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.logo{
+    float: left;
+}
+
+.nav{
+    float: right;
+    margin-top: 3px;
+}
+
+.slider{
+   text-align: center;
+   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    padding: 21rem 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider h1{
+    font-size: 56px;
+    color: white;
+}
+
+.slider p{
+    font-size: 19px;
+    color: white;
+    opacity: 0.9;
+    margin-bottom: 50px;
+}
+
+.slider a{
+    background-color: #f4623a;
+    color: #fff;
+    padding: 20px 36px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.slider hr{
+    width: 3%;
+    background-color: #f4623a;
+    border: none;
+    height: 3px;
+    margin: 20px auto;
+}
+
+.started{
+    text-align: center;
+    background-color: #f4623a;
+    padding: 10rem 0;
+}
+
+.started h2{
+    font-size: 35px;
+    color: white;
+}
+
+.started p{
+    font-size: 19px;
+    color: white;
+    opacity: 0.9;
+    margin-bottom: 50px;
+}
+
+.started a{
+    background-color: #fff;
+    color: black;
+    padding: 20px 36px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.started hr{
+    width: 3%;
+    background-color: #fff;
+    border: none;
+    height: 3px;
+    margin: 20px auto;
+}
+
+.service{
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.service h2{
+    font-size: 35px;
+    color: black;
+}
+
+.service hr{
+    width: 3%;
+    background-color: #f4623a;
+    border: none;
+    height: 3px;
+    margin: 20px auto;
+}
+
+.servicelogoes{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 3rem;
+    
+
+}
+
+.servicelogo{
+    width: 24%;
+}
+
+.servicelogo h3{
+    font-size: 24px;
+   margin-top: 0.5rem;
+    margin-bottom: 0.5rem ;
+}
+
+.servicelogo i{
+    font-size: 50px;
+    color: #f4623a;
+}
+
+.servicelogo p{
+    color: #6c757d;
+    font-size: 16px;
+}
+
+.picture .picturebox{
+    width: calc(100%/3);
+    float: left;
+}
+
+.picture .picturebox img{
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.picture .picturebox:hover img{
+    filter: grayscale(2);
+}
+
+.picture{
+    margin-bottom: 25rem;
+}
+
+.download {
+background-color: #212529;
+text-align: center;
+padding:10rem 0;
+}
+
+.download h2{  
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.download a{
+    background-color: #fff;
+    color: black;
+    padding: 20px 36px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.form{
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.form .inform h2{
+    font-size: 35px;
+    color: black;
+}
+
+.form .inform hr{
+    width: 3%;
+    background-color: #f4623a;
+    border: none;
+    height: 3px;
+    margin: 20px auto;
+}
+
+.form .inform p{
+    color: #6c757d;
+    font-size: 16px;
+}
+
+.message{
+    margin-top: 3rem;
+}
+
+.message input{
+    width: 50%;
+    outline: none;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: 1px solid rgba(233, 24, 24, 0.726);
+    margin-bottom: 15px;
+
+}
+
+.textarea textarea{
+    width: 50%;
+    outline: none;
+    height: 150px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: 1px solid rgba(233, 24, 24, 0.726);
+    margin-bottom: 15px;
+
+}
+
+.submitbtn a{
+    background-color: #f4623a;
+    color: white;
+    padding: 20px 36px;
+    border-radius: 30px;
+    font-weight: bold;
+    display: grid !important;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.number{
+    text-align: center;
+}
+
+.number i{
+    font-size: 30px;
+    color:#6c757d;
+}
+
+.number p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #212529;
+
+}
+
+.footer{
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.footer p{
+    font-size: 14px;
+    color: #212529;
+}
